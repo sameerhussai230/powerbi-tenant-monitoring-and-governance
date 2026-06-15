@@ -1,6 +1,5 @@
 
 
-```markdown
 # 🚀 Power BI Tenant Monitoring & Governance using Admin REST APIs
 
 Maintaining transparency, ensuring optimal performance, and enforcing governance across a large-scale Power BI tenant can be challenging. By utilizing the **Power BI Admin REST APIs**—specifically through metadata scanning and refresh history endpoints—you can programmatically extract granular metadata of every workspace, report, dataset, and data source. 
@@ -9,7 +8,8 @@ By dumping this API data into a centralized repository, you can build a comprehe
 
 This repository outlines the architecture, prerequisites, and endpoints required to build this solution, utilizing strictly official Microsoft documentation.
 
----
+![Power BI Admin Monitoring Overview](Powerbi-admin.png)
+
 
 ## 🛠️ Prerequisites: Service Principal Setup
 
@@ -23,7 +23,6 @@ To automate this extraction securely without relying on individual user accounts
    - **Admin API Settings**: Enable *“Service principals can access read-only admin APIs.”*
    - **Metadata Scanning**: To extract deep schemas and DAX expressions, enable *“Enhance admin APIs responses with detailed metadata”* and *“Enhance admin APIs responses with DAX and mashup expressions.”*
 
----
 
 ## 🔍 Extracting Deep Metadata by Workspace ID
 
