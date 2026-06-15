@@ -8,7 +8,7 @@ By dumping this API data into a centralized repository, you can build a comprehe
 
 This repository outlines the architecture, prerequisites, and endpoints required to build this solution, utilizing strictly official Microsoft documentation.
 
-![Power BI Admin Monitoring Overview](Powerbi-admin.png)
+![Power BI Admin Monitoring Overview](Powerbi-admin_api.png)
 
 
 ## 🛠️ Prerequisites: Service Principal Setup
