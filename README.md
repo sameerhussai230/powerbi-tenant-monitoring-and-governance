@@ -2,7 +2,7 @@
 
 # 🚀 Power BI Tenant Monitoring & Governance using Admin REST APIs
 
-Maintaining transparency, ensuring optimal performance, and enforcing governance across a large-scale Power BI tenant can be challenging. By utilizing the **Power BI Admin REST APIs**—specifically through metadata scanning and refresh history endpoints—you can programmatically extract granular metadata of every workspace, report, dataset, and data source. 
+Maintaining transparency, ensuring optimal performance, and enforcing governance across a large-scale Power BI tenant can be challenging. By utilizing the **Power BI Admin REST APIs**-specifically through metadata scanning and refresh history endpoints-you can programmatically extract granular metadata of every workspace, report, dataset, and data source. 
 
 By dumping this API data into a centralized repository, you can build a comprehensive **Power BI Admin & Governance Report** that provides complete transparency over performance, access, failures, and structural metadata.
 
